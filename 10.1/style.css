@@ -1,0 +1,9 @@
+.not_active {
+    display: none;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
