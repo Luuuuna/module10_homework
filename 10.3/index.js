@@ -1,3 +1,12 @@
+/*Реализовать чат на основе эхо-сервера wss://echo-ws-service.herokuapp.com.
+Интерфейс состоит из input, куда вводится текст сообщения, и кнопки «Отправить».
+
+При клике на кнопку «Отправить» сообщение должно появляться в окне переписки.
+
+Эхо-сервер будет отвечать вам тем же сообщением, его также необходимо выводить в чат:
+Добавить в чат механизм отправки гео-локации:
+ */
+
 const initBtn = document.querySelector(".btn_message");
 const initInput = document.querySelector(".input_message");
 const windowChat = document.querySelector(".window_chat");
